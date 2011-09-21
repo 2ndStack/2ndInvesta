@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="profitblokir/index">
+        <put-attribute name="body" value="/WEB-INF/views/profitblokir/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profitblokir/show">
+        <put-attribute name="body" value="/WEB-INF/views/profitblokir/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profitblokir/reset">
+        <put-attribute name="body" value="/WEB-INF/views/profitblokir/reset.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profitblokir/edit">
+        <put-attribute name="body" value="/WEB-INF/views/profitblokir/edit.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profitblokir/masal">
+        <put-attribute name="body" value="/WEB-INF/views/profitblokir/masal.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profitblokir/laporan">
+        <put-attribute name="body" value="/WEB-INF/views/profitblokir/laporan.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profitblokir/daftar">
+        <put-attribute name="body" value="/WEB-INF/views/profitblokir/daftar_laporan.jsp"/>
+    </definition>
+
+</tiles-definitions>

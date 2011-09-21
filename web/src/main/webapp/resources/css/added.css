@@ -1,0 +1,80 @@
+
+.buttonWrapper {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.buttonWrapper a.back {
+    padding: 0 3px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.buttonWrapper a.back:hover {
+    padding: 0 3px;
+    float: left;
+    text-decoration: underline;
+    text-align: left;
+    color: #c5a059
+}
+
+.buttonWrapper a.view {
+    padding: 0 3px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    color: #9b9b9b
+}
+
+.buttonWrapper a.view:hover {
+    padding: 0 3px;
+    float: left;
+    text-decoration: underline;
+    text-align: left;
+    color: #c5a059
+}
+
+.buttonWrapper a.edit {
+    padding: 0 3px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    color: #9b9b9b
+}
+
+.buttonWrapper a.edit:hover {
+    padding: 0 3px;
+    float: left;
+    text-decoration: underline;
+    text-align: left;
+    color: #55a34a
+}
+
+.buttonWrapper a.delete {
+    padding: 0 3px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    color: #9b9b9b
+}
+
+.buttonWrapper a.delete:hover {
+    padding: 0 3px;
+    float: left;
+    text-decoration: underline;
+    text-align: left;
+    color: #a02b2b
+}
+
+.buttonWrapper input.actionButton {
+    padding: 0 3px;
+    float: left;
+}
+
+#table_view{
+    margin: 15px 15px 15px 15px;
+}
+
+

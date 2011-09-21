@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+    <definition name="administrator" template="/WEB-INF/layouts/administrator.jsp">
+        <put-attribute name="mainNav" value="/WEB-INF/layouts/main_nav.jsp"/>
+        <put-attribute name="secNav" value="/WEB-INF/layouts/second_nav.jsp"/>
+    </definition>
+
+    <definition name="welcome" template="/WEB-INF/layouts/welcome.jsp">
+        <put-attribute name="mainNav" value="/WEB-INF/layouts/main_nav_page.jsp"/>
+        <put-attribute name="secNav" value="/WEB-INF/layouts/second_nav.jsp"/>
+    </definition>
+
+    <definition name="page" template="/WEB-INF/layouts/page.jsp">
+        <put-attribute name="mainNav" value="/WEB-INF/layouts/main_nav_page.jsp"/>
+        <put-attribute name="secNav" value="/WEB-INF/layouts/second_nav.jsp"/>
+    </definition>
+</tiles-definitions>

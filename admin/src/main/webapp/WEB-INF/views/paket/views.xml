@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="paket/index">
+        <put-attribute name="body" value="/WEB-INF/views/paket/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="paket/show">
+        <put-attribute name="body" value="/WEB-INF/views/paket/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="paket/create">
+        <put-attribute name="body" value="/WEB-INF/views/paket/create.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/paket/_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="paket/edit">
+        <put-attribute name="body" value="/WEB-INF/views/paket/edit.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/paket/_form_scripts.jsp"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="bonus/index">
+        <put-attribute name="body" value="/WEB-INF/views/bonus/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bonus/show">
+        <put-attribute name="body" value="/WEB-INF/views/bonus/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bonus/reset">
+        <put-attribute name="body" value="/WEB-INF/views/bonus/reset.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bonus/edit">
+        <put-attribute name="body" value="/WEB-INF/views/bonus/edit.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bonus/laporan">
+        <put-attribute name="body" value="/WEB-INF/views/bonus/laporan.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bonus/daftar">
+        <put-attribute name="body" value="/WEB-INF/views/bonus/daftar_laporan.jsp"/>
+    </definition>
+
+</tiles-definitions>

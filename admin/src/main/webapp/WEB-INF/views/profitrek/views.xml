@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="profitrek/laporan">
+        <put-attribute name="body" value="/WEB-INF/views/profitrek/laporan.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/profitrek/_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profitrek/daftar">
+        <put-attribute name="body" value="/WEB-INF/views/profitrek/daftar_laporan.jsp"/>
+    </definition>
+
+</tiles-definitions>

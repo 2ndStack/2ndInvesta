@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="profit/index">
+        <put-attribute name="body" value="/WEB-INF/views/profit/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/indexAll">
+        <put-attribute name="body" value="/WEB-INF/views/profit/indexAll.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/show">
+        <put-attribute name="body" value="/WEB-INF/views/profit/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/reset">
+        <put-attribute name="body" value="/WEB-INF/views/profit/reset.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/edit">
+        <put-attribute name="body" value="/WEB-INF/views/profit/edit.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/masal">
+        <put-attribute name="body" value="/WEB-INF/views/profit/masal.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/laporan">
+        <put-attribute name="body" value="/WEB-INF/views/profit/laporan.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/manual">
+        <put-attribute name="body" value="/WEB-INF/views/profit/manual.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/manual_success">
+        <put-attribute name="body" value="/WEB-INF/views/profit/manual_success.jsp"/>
+    </definition>
+    <definition extends="administrator" name="profit/daftar">
+        <put-attribute name="body" value="/WEB-INF/views/profit/daftar_laporan.jsp"/>
+    </definition>
+
+</tiles-definitions>

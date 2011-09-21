@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="berita/index">
+        <put-attribute name="body" value="/WEB-INF/views/berita/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="berita/show">
+        <put-attribute name="body" value="/WEB-INF/views/berita/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="berita/create">
+        <put-attribute name="body" value="/WEB-INF/views/berita/create.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/berita/_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="berita/edit">
+        <put-attribute name="body" value="/WEB-INF/views/berita/edit.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/berita/_form_scripts.jsp"/>
+    </definition>
+</tiles-definitions>

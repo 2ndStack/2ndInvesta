@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="user/index">
+        <put-attribute name="body" value="/WEB-INF/views/user/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/show">
+        <put-attribute name="body" value="/WEB-INF/views/user/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/reset">
+        <put-attribute name="body" value="/WEB-INF/views/user/reset.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/edit">
+        <put-attribute name="body" value="/WEB-INF/views/user/edit.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/user/_form_scripts.jsp"/>
+    </definition>
+</tiles-definitions>

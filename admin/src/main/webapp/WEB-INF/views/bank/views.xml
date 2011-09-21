@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="bank/index">
+        <put-attribute name="body" value="/WEB-INF/views/bank/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bank/show">
+        <put-attribute name="body" value="/WEB-INF/views/bank/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bank/create">
+        <put-attribute name="body" value="/WEB-INF/views/bank/create.jsp"/>
+    </definition>
+    <definition extends="administrator" name="bank/edit">
+        <put-attribute name="body" value="/WEB-INF/views/bank/edit.jsp"/>
+    </definition>
+</tiles-definitions>

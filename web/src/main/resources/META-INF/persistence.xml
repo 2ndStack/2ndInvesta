@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+
+    <persistence-unit name="galleryPersistenceUnit" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <validation-mode>NONE</validation-mode>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+            <!--
+                value='create' to build a new database on each run;
+                value='update' to modify an existing database;
+                value='create-drop' means the same as 'create' but also drops tables when Hibernate closes;
+                value='validate' makes no changes to the database
+             -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <!--<property name="hibernate.hbm2ddl.auto" value="validate"/>-->
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.cache.use_query_cache" value="false"/>
+            <property name="hibernate.cache.use_second_level_cache" value="false"/>
+            <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+            <!--<property name="hibernate.cache.use_second_level_cache" value="true"/>-->
+            <!--<property name="hibernate.cache.provider_class" value="net.sf.ehcache.hibernate.SingletonEhCacheProvider"/>-->
+            <!--<property name="hibernate.search.default.directory_provider" value="org.hibernate.search.store.FSDirectoryProvider"/>-->
+            <!--<property name="hibernate.search.default.indexBase" value="./lucene/indexes"/>-->
+            <!--<property name="hibernate.search.default.batch.merge_factor" value="10"/>-->
+            <!--<property name="hibernate.search.default.batch.max_buffered_docs" value="10"/>-->
+        </properties>
+        <class>org.jasoet.mandiri.domain.Email</class>
+        <class>org.jasoet.mandiri.domain.ConfigProperty</class>
+        <class>org.jasoet.mandiri.domain.ProfitBlokir</class>
+        <class>org.jasoet.mandiri.domain.Page</class>
+        <class>org.jasoet.mandiri.domain.Bonus</class>
+        <class>org.jasoet.mandiri.domain.Bank</class>
+        <class>org.jasoet.mandiri.domain.Berita</class>
+        <class>org.jasoet.mandiri.domain.Paket</class>
+        <class>org.jasoet.mandiri.domain.Role</class>
+        <class>org.jasoet.mandiri.domain.Staff</class>
+        <class>org.jasoet.mandiri.domain.Testimoni</class>
+        <class>org.jasoet.mandiri.domain.User</class>
+        <class>org.jasoet.mandiri.domain.LogAdminActivity</class>
+        <class>org.jasoet.mandiri.domain.LogSystemActivity</class>
+        <class>org.jasoet.mandiri.domain.LogUserActivity</class>
+        <class>org.jasoet.mandiri.domain.Profit</class>
+    </persistence-unit>
+
+</persistence>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+    <definition extends="administrator" name="home">
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
+    </definition>
+
+    <definition extends="nomenu" name="dataAccessFailure">
+        <put-attribute name="body" value="/WEB-INF/views/exception/parent.jsp"/>
+    </definition>
+
+    <definition extends="nomenu" name="resourceNotFound">
+        <put-attribute name="body" value="/WEB-INF/views/exception/parent.jsp"/>
+    </definition>
+
+    <definition extends="nomenu" name="uncaughtException">
+        <put-attribute name="body" value="/WEB-INF/views/exception/parent.jsp"/>
+    </definition>
+
+</tiles-definitions>

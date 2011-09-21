@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="staff/index">
+        <put-attribute name="body" value="/WEB-INF/views/staff/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="staff/show">
+        <put-attribute name="body" value="/WEB-INF/views/staff/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="staff/create">
+        <put-attribute name="body" value="/WEB-INF/views/staff/create.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/staff/_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="staff/edit">
+        <put-attribute name="body" value="/WEB-INF/views/staff/edit.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/staff/_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="staff/cp">
+        <put-attribute name="body" value="/WEB-INF/views/staff/changePassword.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/staff/_change_password_scripts.jsp"/>
+    </definition>
+</tiles-definitions>

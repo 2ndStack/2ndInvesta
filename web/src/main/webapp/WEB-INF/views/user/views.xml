@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+    <definition extends="administrator" name="user/page">
+        <put-attribute name="body" value="/WEB-INF/views/user/page.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/pagenotfound">
+        <put-attribute name="body" value="/WEB-INF/views/user/pagenotfound.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/profile">
+        <put-attribute name="body" value="/WEB-INF/views/user/profile.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/register">
+        <put-attribute name="body" value="/WEB-INF/views/user/register.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/user/_register_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/complete">
+        <put-attribute name="body" value="/WEB-INF/views/user/registration_completed.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/login">
+        <put-attribute name="body" value="/WEB-INF/views/user/login.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/password">
+        <put-attribute name="body" value="/WEB-INF/views/user/password.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/user/_password_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/edit">
+        <put-attribute name="body" value="/WEB-INF/views/user/edit.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/user/_edit_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/profit">
+        <put-attribute name="body" value="/WEB-INF/views/user/profit.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/bonus">
+        <put-attribute name="body" value="/WEB-INF/views/user/bonus.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/downline">
+        <put-attribute name="body" value="/WEB-INF/views/user/downline.jsp"/>
+    </definition>
+    <definition extends="administrator" name="user/dashboard">
+        <put-attribute name="body" value="/WEB-INF/views/user/dashboard.jsp"/>
+    </definition>
+</tiles-definitions>
+
